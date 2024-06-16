@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container-fluid{
+    height: 500px;
+}
+img{
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+}
+.img-box{
+}
+.text-box{
+    margin: 8px 10px;
+}
+.circle{
+    height: 30px;
+    padding: 2px 5px;
+    border-radius: 50%;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 3px 10px 0px;
+}
+.col{
+    width: fit-content;
+    margin: 30px;
+}
+.header, .card{
+    border: none;
+    border-radius: 30px 0 0 0;
+}
+.card{
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.header{
+    padding-top: 10px;
+}
+.card-title, .topic{
+    color: rgba(220, 20, 60, 0.858)
+}
+body{
+    background-color: whitesmoke;
+}
+.card-text{
+    color: #235796;
+    font-weight: bold;
+}
+.card{
+
+  padding: 10px;
+  margin: 5px 0;
+  transition: transform 0.3s ease; 
+  overflow: hidden; 
+}
+
+.card:hover {
+  transform: scale(1.02);
+  background-color: rgba(128, 128, 128, 0.179);
+  cursor: pointer;
+}
+
